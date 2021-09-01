@@ -1,0 +1,135 @@
+*{
+    font-family: "Poppins";
+}
+
+
+.frente{
+    margin-top: -300px;
+    height: 900px;
+    width: 100%;
+    background-image: url("../img/rectangular-arrangement-of-succulents-cactus-succulents-in-planter.jpg");
+    background-size: cover;
+    display: grid;
+    align-items: flex-end;
+
+}
+.logo{
+    height: 60px;
+    width: 120px;
+}
+
+
+
+.bg-custom-2 {
+    background:rgba(0,0,0,0.5);   /* for latest browsers */
+ }
+
+ .front-text{
+
+    margin-bottom: 100px;
+     
+     width: 600px;
+    height: 350px;
+     color: white;
+     /* background-color: aqua; */
+     display: grid;
+     justify-content: space-between;
+
+ }
+ .front-text h3{
+     font-size: 19px;
+     font-weight: 700;
+     line-height: 19px;
+     text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+ }
+ .front-text h1{
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 58px;
+     text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+ }
+ .front-text p{
+     
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 23px;
+     text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+ }
+ .front-text{
+     color: white;
+ }
+
+ .resaltado{
+     font-weight: bold;
+     color: #5159BB;
+ }
+
+ .servicios{
+     height: 2000px;
+     width: 100%;    
+
+     /* background-color: #ff0000; */
+     background-image: url("../img/Web 1920 – 1.jpg");
+     /* background-attachment: fixed; */
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+   
+ }
+ .front-ss{
+
+    margin-bottom: 100px;
+     
+     width: 600px;
+    height: 350px;
+    
+     /* background-color: aqua; */
+     display: grid;
+     justify-content: space-between;
+
+ }
+ .front-ss h3{
+     color: #5159BB;
+     font-size: 19px;
+     font-weight: 700;
+     line-height: 19px;
+     text-shadow: -1px 1px 0 #fff,
+                          1px 1px 0 #fff,
+                         1px -1px 0 #fff,
+                        -1px -1px 0 #fff;
+ }
+ .front-ss h2{
+     color: orange;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 58px;
+     text-shadow: -1px 1px 0 #fff,
+     1px 1px 0 #fff,
+    1px -1px 0 #fff,
+   -1px -1px 0 #fff;
+ }
+ .front-text p{
+     
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 23px;
+     text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+ }
+
+
+
+ 
