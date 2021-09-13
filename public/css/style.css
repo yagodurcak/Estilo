@@ -117,7 +117,7 @@
     justify-items: center;
  }
  .fondocolor{
-    background-image: url("../img/21212.webp");
+    background-image: url("../img/323232.webp");
     background-size:  cover;
     background-repeat: no-repeat;
     display: grid;
@@ -453,7 +453,7 @@
     .imgmant{
         height: 17.5rem;
         width: 25rem;
-        object-fit: contain;
+        object-fit: contain;    
         
     }
 
@@ -485,8 +485,15 @@
 
 
 .colorfooter {
-    background-color: #154D80
+    
+    background-color: #154D80;
+    
+    
 }
 .text-footer{
     font-size: 16px;
+}
+
+.linksfront{
+    /* background-color: #5EFF08; */
 }
