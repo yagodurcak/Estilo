@@ -52,7 +52,8 @@
      background: rgba(0, 0, 0, .5);
      padding: 30px;
     box-sizing: border-box;
-    transition: 0.5s;
+    /* transition: 0.5s; */
+    animation-name: animats;
 
 
  }
@@ -252,7 +253,7 @@
     }
 
     .fondocolor{
-        background-image: url("../img/21212.webp");
+        background-image: url("../img/989898.webp");
         background-size:  100% 100%;
         background-repeat: no-repeat;
         display: grid;
@@ -309,6 +310,17 @@
     .footext{
         font-size: 0.575rem;
     }
+
+    
+    .fondocolor{
+        background-image: url("../img/989898.webp");
+        background-size:  contain;
+        background-repeat: repeat;
+        display: grid;
+        align-items: flex-end;
+        width: 100%;
+       
+     }
 
     .front-text{  
          
@@ -634,7 +646,7 @@
 }
 
 .containers .slider .slide.slide2 {
-    background: url(../img/pexels-sharon-mccutcheon-1209843web.jpg);
+    background: url(../img/pexels-sharon-mccutcheon-1209843web.webp);
     background-size: cover;
     background-position: center;
 }
@@ -646,7 +658,7 @@
 }
 
 .containers .slider .slide.slide4 {
-    background: url(../img/pexels-sharon-mccutcheon-1209843web.jpg);
+    background: url(../img/pexels-sharon-mccutcheon-1209843web.webp);
     background-size: cover;
     background-position: center;
 }
@@ -681,3 +693,41 @@
     }
 }
 
+.nuevo{
+    margin-top: -150px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: animat;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 40s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animat {
+    0%{
+        background-image: url("../img/fondo.webp");
+    }
+    20%{
+        background-image: url("../img/pexels-sharon-mccutcheon-1209843web.webp");
+    }
+    40%{
+        background-image: url("../img/fondo.webp");
+    }
+    60%{
+        background-image: url("../img/pexels-sharon-mccutcheon-1209843web.webp");
+    }
+    80%{
+        background-image: url("../img/fondo.webp");
+    }
+    100%{
+        background-image: url("../img/pexels-sharon-mccutcheon-1209843web.webp");
+    }}
